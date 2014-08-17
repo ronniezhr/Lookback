@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0505983D1975C96D002BC415 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0505983B1975C96D002BC415 /* FacebookSDK.framework */; };
+		0505983E1975C96D002BC415 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0505983C1975C96D002BC415 /* Parse.framework */; };
+		050598401975C9EA002BC415 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0505983F1975C9EA002BC415 /* Accounts.framework */; };
+		050598421975C9EE002BC415 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050598411975C9EE002BC415 /* Social.framework */; };
+		050598441975C9FF002BC415 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050598431975C9FF002BC415 /* SystemConfiguration.framework */; };
+		050598461975CA1F002BC415 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050598451975CA1F002BC415 /* MobileCoreServices.framework */; };
+		05E4C2991970691900628273 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E4C2981970691900628273 /* Foundation.framework */; };
+		05E4C29B1970691900628273 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E4C29A1970691900628273 /* CoreGraphics.framework */; };
+		05E4C29D1970691900628273 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E4C29C1970691900628273 /* UIKit.framework */; };
+		05E4C2A31970691900628273 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05E4C2A11970691900628273 /* InfoPlist.strings */; };
+		05E4C2A51970691900628273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E4C2A41970691900628273 /* main.m */; };
+		05E4C2A91970691900628273 /* JERAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E4C2A81970691900628273 /* JERAppDelegate.m */; };
+		05E4C2AB1970691900628273 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E4C2AA1970691900628273 /* Images.xcassets */; };
+		05E4C2B21970691900628273 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E4C2B11970691900628273 /* XCTest.framework */; };
+		05E4C2B31970691900628273 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E4C2981970691900628273 /* Foundation.framework */; };
+		05E4C2B41970691900628273 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E4C29C1970691900628273 /* UIKit.framework */; };
+		05E4C2BC1970691900628273 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05E4C2BA1970691900628273 /* InfoPlist.strings */; };
+		05E4C2BE1970691900628273 /* LookbackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E4C2BD1970691900628273 /* LookbackTests.m */; };
+		05E84C0B1975D156009A5929 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E84C0A1975D156009A5929 /* libCorePlot-CocoaTouch.a */; };
+		271E6DDE1979C40A00D70E75 /* JERLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271E6DDD1979C40A00D70E75 /* JERLogInViewController.m */; };
+		271E6DE11979C43800D70E75 /* JERSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271E6DE01979C43800D70E75 /* JERSignUpViewController.m */; };
+		271E6DE31979C55500D70E75 /* AppName.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E6DE21979C55500D70E75 /* AppName.png */; };
+		2756015F198AD90500269123 /* UIFont+JERFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2756015E198AD90500269123 /* UIFont+JERFonts.m */; };
+		27A9A5EC1976004B00B2B088 /* JERAddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9A5EB1976004B00B2B088 /* JERAddEventViewController.m */; };
+		27A9A5EF1976005600B2B088 /* JEREventBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9A5EE1976005600B2B088 /* JEREventBoardViewController.m */; };
+		27A9A5F21976006200B2B088 /* JERImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9A5F11976006200B2B088 /* JERImageStore.m */; };
+		27B869E9199B218F00DDA8F2 /* graphButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B869E8199B218F00DDA8F2 /* graphButton.png */; };
+		27D741B71999FA5700985C7A /* appNameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D741B61999FA5700985C7A /* appNameIcon.png */; };
+		27D741BA1999FAC100985C7A /* UIImage+JERImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D741B91999FAC100985C7A /* UIImage+JERImages.m */; };
+		85664AA91986BC1E00A93415 /* JEREmojiImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 85664AA81986BC1E00A93415 /* JEREmojiImage.m */; };
+		857044D219999715002772CD /* logoutButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 857044D119999715002772CD /* logoutButton.png */; };
+		85D3217C1975EEC200F0CD91 /* JERMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D321771975EEC200F0CD91 /* JERMainPageViewController.m */; };
+		85D3217D1975EEC200F0CD91 /* JERPeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D321791975EEC200F0CD91 /* JERPeriodViewController.m */; };
+		85D3217E1975EEC200F0CD91 /* JERPlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D3217B1975EEC200F0CD91 /* JERPlotViewController.m */; };
+		8932654F19747A5B0091AC7F /* JERDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8932654E19747A5B0091AC7F /* JERDay.m */; };
+		8932655219747F860091AC7F /* JEREvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8932655119747F860091AC7F /* JEREvent.m */; };
+		893265581974A71A0091AC7F /* JERCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893265571974A71A0091AC7F /* JERCollectionViewCell.m */; };
+		8932655C19759AA20091AC7F /* imgres-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8932655B19759AA20091AC7F /* imgres-1.jpg */; };
+		8932655E1975A0520091AC7F /* imgres-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8932655D1975A0520091AC7F /* imgres-2.jpg */; };
+		8948FA4919746BEB00C01521 /* JERTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948FA4819746BEB00C01521 /* JERTodayViewController.m */; };
+		8973AE3B199ABAFB00CF31EB /* JERBackButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8973AE3A199ABAFB00CF31EB /* JERBackButtonView.m */; };
+		898CF323199AD860009AD87F /* backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898CF322199AD860009AD87F /* backButton@2x.png */; };
+		898E414B198ABBC400741FB5 /* UIColor+JERColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 898E414A198ABBC400741FB5 /* UIColor+JERColors.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05E4C2B51970691900628273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05E4C28D1970691900628273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05E4C2941970691900628273;
+			remoteInfo = Lookback;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0505983B1975C96D002BC415 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK.framework; sourceTree = "<group>"; };
+		0505983C1975C96D002BC415 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		0505983F1975C9EA002BC415 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		050598411975C9EE002BC415 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		050598431975C9FF002BC415 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		050598451975CA1F002BC415 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		05E4C2951970691900628273 /* Lookback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lookback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E4C2981970691900628273 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05E4C29A1970691900628273 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05E4C29C1970691900628273 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05E4C2A01970691900628273 /* Lookback-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lookback-Info.plist"; sourceTree = "<group>"; };
+		05E4C2A21970691900628273 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05E4C2A41970691900628273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05E4C2A61970691900628273 /* Lookback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lookback-Prefix.pch"; sourceTree = "<group>"; };
+		05E4C2A71970691900628273 /* JERAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JERAppDelegate.h; sourceTree = "<group>"; };
+		05E4C2A81970691900628273 /* JERAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JERAppDelegate.m; sourceTree = "<group>"; };
+		05E4C2AA1970691900628273 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05E4C2B01970691900628273 /* LookbackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookbackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E4C2B11970691900628273 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		05E4C2B91970691900628273 /* LookbackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LookbackTests-Info.plist"; sourceTree = "<group>"; };
+		05E4C2BB1970691900628273 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05E4C2BD1970691900628273 /* LookbackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookbackTests.m; sourceTree = "<group>"; };
+		05E84C0A1975D156009A5929 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCorePlot-CocoaTouch.a"; path = "../CorePlot/libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		271E6DDC1979C40A00D70E75 /* JERLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERLogInViewController.h; sourceTree = "<group>"; };
+		271E6DDD1979C40A00D70E75 /* JERLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERLogInViewController.m; sourceTree = "<group>"; };
+		271E6DDF1979C43800D70E75 /* JERSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERSignUpViewController.h; sourceTree = "<group>"; };
+		271E6DE01979C43800D70E75 /* JERSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERSignUpViewController.m; sourceTree = "<group>"; };
+		271E6DE21979C55500D70E75 /* AppName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppName.png; sourceTree = "<group>"; };
+		2756015D198AD90500269123 /* UIFont+JERFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+JERFonts.h"; sourceTree = "<group>"; };
+		2756015E198AD90500269123 /* UIFont+JERFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+JERFonts.m"; sourceTree = "<group>"; };
+		27A9A5EA1976004B00B2B088 /* JERAddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JERAddEventViewController.h; path = Lookback/JERAddEventViewController.h; sourceTree = "<group>"; };
+		27A9A5EB1976004B00B2B088 /* JERAddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JERAddEventViewController.m; path = Lookback/JERAddEventViewController.m; sourceTree = "<group>"; };
+		27A9A5ED1976005600B2B088 /* JEREventBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JEREventBoardViewController.h; path = Lookback/JEREventBoardViewController.h; sourceTree = "<group>"; };
+		27A9A5EE1976005600B2B088 /* JEREventBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JEREventBoardViewController.m; path = Lookback/JEREventBoardViewController.m; sourceTree = "<group>"; };
+		27A9A5F01976005E00B2B088 /* JERImageStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JERImageStore.h; sourceTree = "<group>"; };
+		27A9A5F11976006200B2B088 /* JERImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERImageStore.m; sourceTree = "<group>"; };
+		27B869E8199B218F00DDA8F2 /* graphButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graphButton.png; sourceTree = "<group>"; };
+		27D741AA1999868100985C7A /* logoutButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoutButton.png; sourceTree = "<group>"; };
+		27D741B61999FA5700985C7A /* appNameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appNameIcon.png; sourceTree = "<group>"; };
+		27D741B81999FAC100985C7A /* UIImage+JERImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JERImages.h"; sourceTree = "<group>"; };
+		27D741B91999FAC100985C7A /* UIImage+JERImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JERImages.m"; sourceTree = "<group>"; };
+		85664AA71986BC1E00A93415 /* JEREmojiImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEREmojiImage.h; sourceTree = "<group>"; };
+		85664AA81986BC1E00A93415 /* JEREmojiImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JEREmojiImage.m; sourceTree = "<group>"; };
+		857044D119999715002772CD /* logoutButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoutButton.png; sourceTree = "<group>"; };
+		85D321761975EEC200F0CD91 /* JERMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERMainPageViewController.h; sourceTree = "<group>"; };
+		85D321771975EEC200F0CD91 /* JERMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERMainPageViewController.m; sourceTree = "<group>"; };
+		85D321781975EEC200F0CD91 /* JERPeriodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERPeriodViewController.h; sourceTree = "<group>"; };
+		85D321791975EEC200F0CD91 /* JERPeriodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERPeriodViewController.m; sourceTree = "<group>"; };
+		85D3217A1975EEC200F0CD91 /* JERPlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERPlotViewController.h; sourceTree = "<group>"; };
+		85D3217B1975EEC200F0CD91 /* JERPlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERPlotViewController.m; sourceTree = "<group>"; };
+		8932654D19747A5B0091AC7F /* JERDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERDay.h; sourceTree = "<group>"; };
+		8932654E19747A5B0091AC7F /* JERDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERDay.m; sourceTree = "<group>"; };
+		8932655019747F860091AC7F /* JEREvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEREvent.h; sourceTree = "<group>"; };
+		8932655119747F860091AC7F /* JEREvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JEREvent.m; sourceTree = "<group>"; };
+		893265561974A71A0091AC7F /* JERCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERCollectionViewCell.h; sourceTree = "<group>"; };
+		893265571974A71A0091AC7F /* JERCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERCollectionViewCell.m; sourceTree = "<group>"; };
+		8932655B19759AA20091AC7F /* imgres-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-1.jpg"; sourceTree = "<group>"; };
+		8932655D1975A0520091AC7F /* imgres-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-2.jpg"; sourceTree = "<group>"; };
+		8948FA4719746BEB00C01521 /* JERTodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERTodayViewController.h; sourceTree = "<group>"; };
+		8948FA4819746BEB00C01521 /* JERTodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERTodayViewController.m; sourceTree = "<group>"; };
+		8973AE39199ABAFB00CF31EB /* JERBackButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERBackButtonView.h; sourceTree = "<group>"; };
+		8973AE3A199ABAFB00CF31EB /* JERBackButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERBackButtonView.m; sourceTree = "<group>"; };
+		898CF322199AD860009AD87F /* backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton@2x.png"; sourceTree = "<group>"; };
+		898E4149198ABBC400741FB5 /* UIColor+JERColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JERColors.h"; sourceTree = "<group>"; };
+		898E414A198ABBC400741FB5 /* UIColor+JERColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JERColors.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05E4C2921970691900628273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050598461975CA1F002BC415 /* MobileCoreServices.framework in Frameworks */,
+				050598441975C9FF002BC415 /* SystemConfiguration.framework in Frameworks */,
+				050598421975C9EE002BC415 /* Social.framework in Frameworks */,
+				050598401975C9EA002BC415 /* Accounts.framework in Frameworks */,
+				05E4C29B1970691900628273 /* CoreGraphics.framework in Frameworks */,
+				0505983D1975C96D002BC415 /* FacebookSDK.framework in Frameworks */,
+				05E4C29D1970691900628273 /* UIKit.framework in Frameworks */,
+				05E4C2991970691900628273 /* Foundation.framework in Frameworks */,
+				0505983E1975C96D002BC415 /* Parse.framework in Frameworks */,
+				05E84C0B1975D156009A5929 /* libCorePlot-CocoaTouch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E4C2AD1970691900628273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E4C2B21970691900628273 /* XCTest.framework in Frameworks */,
+				05E4C2B41970691900628273 /* UIKit.framework in Frameworks */,
+				05E4C2B31970691900628273 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05E4C28C1970691900628273 = {
+			isa = PBXGroup;
+			children = (
+				8973AE39199ABAFB00CF31EB /* JERBackButtonView.h */,
+				8973AE3A199ABAFB00CF31EB /* JERBackButtonView.m */,
+				893265561974A71A0091AC7F /* JERCollectionViewCell.h */,
+				893265571974A71A0091AC7F /* JERCollectionViewCell.m */,
+				8948FA4719746BEB00C01521 /* JERTodayViewController.h */,
+				8948FA4819746BEB00C01521 /* JERTodayViewController.m */,
+				27A9A5ED1976005600B2B088 /* JEREventBoardViewController.h */,
+				27A9A5EE1976005600B2B088 /* JEREventBoardViewController.m */,
+				85664AA71986BC1E00A93415 /* JEREmojiImage.h */,
+				85664AA81986BC1E00A93415 /* JEREmojiImage.m */,
+				8932655019747F860091AC7F /* JEREvent.h */,
+				8932655119747F860091AC7F /* JEREvent.m */,
+				8932654D19747A5B0091AC7F /* JERDay.h */,
+				8932654E19747A5B0091AC7F /* JERDay.m */,
+				27A9A5EA1976004B00B2B088 /* JERAddEventViewController.h */,
+				27A9A5EB1976004B00B2B088 /* JERAddEventViewController.m */,
+				898E4149198ABBC400741FB5 /* UIColor+JERColors.h */,
+				898E414A198ABBC400741FB5 /* UIColor+JERColors.m */,
+				05E4C29E1970691900628273 /* Lookback */,
+				05E4C2B71970691900628273 /* LookbackTests */,
+				05E4C2971970691900628273 /* Frameworks */,
+				05E4C2961970691900628273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05E4C2961970691900628273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05E4C2951970691900628273 /* Lookback.app */,
+				05E4C2B01970691900628273 /* LookbackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05E4C2971970691900628273 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05E84C0A1975D156009A5929 /* libCorePlot-CocoaTouch.a */,
+				050598451975CA1F002BC415 /* MobileCoreServices.framework */,
+				050598431975C9FF002BC415 /* SystemConfiguration.framework */,
+				050598411975C9EE002BC415 /* Social.framework */,
+				0505983F1975C9EA002BC415 /* Accounts.framework */,
+				0505983B1975C96D002BC415 /* FacebookSDK.framework */,
+				0505983C1975C96D002BC415 /* Parse.framework */,
+				05E4C2981970691900628273 /* Foundation.framework */,
+				05E4C29A1970691900628273 /* CoreGraphics.framework */,
+				05E4C29C1970691900628273 /* UIKit.framework */,
+				05E4C2B11970691900628273 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05E4C29E1970691900628273 /* Lookback */ = {
+			isa = PBXGroup;
+			children = (
+				857044D119999715002772CD /* logoutButton.png */,
+				898CF322199AD860009AD87F /* backButton@2x.png */,
+				05E4C2A71970691900628273 /* JERAppDelegate.h */,
+				05E4C2A81970691900628273 /* JERAppDelegate.m */,
+				85D321761975EEC200F0CD91 /* JERMainPageViewController.h */,
+				85D321771975EEC200F0CD91 /* JERMainPageViewController.m */,
+				85D321781975EEC200F0CD91 /* JERPeriodViewController.h */,
+				85D321791975EEC200F0CD91 /* JERPeriodViewController.m */,
+				85D3217A1975EEC200F0CD91 /* JERPlotViewController.h */,
+				85D3217B1975EEC200F0CD91 /* JERPlotViewController.m */,
+				8932655D1975A0520091AC7F /* imgres-2.jpg */,
+				8932655B19759AA20091AC7F /* imgres-1.jpg */,
+				271E6DDC1979C40A00D70E75 /* JERLogInViewController.h */,
+				271E6DDD1979C40A00D70E75 /* JERLogInViewController.m */,
+				271E6DDF1979C43800D70E75 /* JERSignUpViewController.h */,
+				271E6DE01979C43800D70E75 /* JERSignUpViewController.m */,
+				27A9A5F01976005E00B2B088 /* JERImageStore.h */,
+				27A9A5F11976006200B2B088 /* JERImageStore.m */,
+				2756015D198AD90500269123 /* UIFont+JERFonts.h */,
+				2756015E198AD90500269123 /* UIFont+JERFonts.m */,
+				27D741B81999FAC100985C7A /* UIImage+JERImages.h */,
+				27D741B91999FAC100985C7A /* UIImage+JERImages.m */,
+				05E4C2AA1970691900628273 /* Images.xcassets */,
+				05E4C29F1970691900628273 /* Supporting Files */,
+			);
+			path = Lookback;
+			sourceTree = "<group>";
+		};
+		05E4C29F1970691900628273 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27B869E8199B218F00DDA8F2 /* graphButton.png */,
+				27D741AA1999868100985C7A /* logoutButton.png */,
+				27D741B61999FA5700985C7A /* appNameIcon.png */,
+				271E6DE21979C55500D70E75 /* AppName.png */,
+				05E4C2A01970691900628273 /* Lookback-Info.plist */,
+				05E4C2A11970691900628273 /* InfoPlist.strings */,
+				05E4C2A41970691900628273 /* main.m */,
+				05E4C2A61970691900628273 /* Lookback-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05E4C2B71970691900628273 /* LookbackTests */ = {
+			isa = PBXGroup;
+			children = (
+				05E4C2BD1970691900628273 /* LookbackTests.m */,
+				05E4C2B81970691900628273 /* Supporting Files */,
+			);
+			path = LookbackTests;
+			sourceTree = "<group>";
+		};
+		05E4C2B81970691900628273 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05E4C2B91970691900628273 /* LookbackTests-Info.plist */,
+				05E4C2BA1970691900628273 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05E4C2941970691900628273 /* Lookback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E4C2C11970691900628273 /* Build configuration list for PBXNativeTarget "Lookback" */;
+			buildPhases = (
+				05E4C2911970691900628273 /* Sources */,
+				05E4C2921970691900628273 /* Frameworks */,
+				05E4C2931970691900628273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lookback;
+			productName = Lookback;
+			productReference = 05E4C2951970691900628273 /* Lookback.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05E4C2AF1970691900628273 /* LookbackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E4C2C41970691900628273 /* Build configuration list for PBXNativeTarget "LookbackTests" */;
+			buildPhases = (
+				05E4C2AC1970691900628273 /* Sources */,
+				05E4C2AD1970691900628273 /* Frameworks */,
+				05E4C2AE1970691900628273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05E4C2B61970691900628273 /* PBXTargetDependency */,
+			);
+			name = LookbackTests;
+			productName = LookbackTests;
+			productReference = 05E4C2B01970691900628273 /* LookbackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05E4C28D1970691900628273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JER;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Lookback;
+				TargetAttributes = {
+					05E4C2AF1970691900628273 = {
+						TestTargetID = 05E4C2941970691900628273;
+					};
+				};
+			};
+			buildConfigurationList = 05E4C2901970691900628273 /* Build configuration list for PBXProject "Lookback" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05E4C28C1970691900628273;
+			productRefGroup = 05E4C2961970691900628273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05E4C2941970691900628273 /* Lookback */,
+				05E4C2AF1970691900628273 /* LookbackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05E4C2931970691900628273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857044D219999715002772CD /* logoutButton.png in Resources */,
+				8932655E1975A0520091AC7F /* imgres-2.jpg in Resources */,
+				8932655C19759AA20091AC7F /* imgres-1.jpg in Resources */,
+				898CF323199AD860009AD87F /* backButton@2x.png in Resources */,
+				05E4C2A31970691900628273 /* InfoPlist.strings in Resources */,
+				27D741B71999FA5700985C7A /* appNameIcon.png in Resources */,
+				05E4C2AB1970691900628273 /* Images.xcassets in Resources */,
+				27B869E9199B218F00DDA8F2 /* graphButton.png in Resources */,
+				271E6DE31979C55500D70E75 /* AppName.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E4C2AE1970691900628273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E4C2BC1970691900628273 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05E4C2911970691900628273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2756015F198AD90500269123 /* UIFont+JERFonts.m in Sources */,
+				27D741BA1999FAC100985C7A /* UIImage+JERImages.m in Sources */,
+				85D3217C1975EEC200F0CD91 /* JERMainPageViewController.m in Sources */,
+				85664AA91986BC1E00A93415 /* JEREmojiImage.m in Sources */,
+				898E414B198ABBC400741FB5 /* UIColor+JERColors.m in Sources */,
+				85D3217D1975EEC200F0CD91 /* JERPeriodViewController.m in Sources */,
+				27A9A5EF1976005600B2B088 /* JEREventBoardViewController.m in Sources */,
+				85D3217E1975EEC200F0CD91 /* JERPlotViewController.m in Sources */,
+				8932655219747F860091AC7F /* JEREvent.m in Sources */,
+				8948FA4919746BEB00C01521 /* JERTodayViewController.m in Sources */,
+				8932654F19747A5B0091AC7F /* JERDay.m in Sources */,
+				271E6DDE1979C40A00D70E75 /* JERLogInViewController.m in Sources */,
+				893265581974A71A0091AC7F /* JERCollectionViewCell.m in Sources */,
+				05E4C2A91970691900628273 /* JERAppDelegate.m in Sources */,
+				05E4C2A51970691900628273 /* main.m in Sources */,
+				8973AE3B199ABAFB00CF31EB /* JERBackButtonView.m in Sources */,
+				271E6DE11979C43800D70E75 /* JERSignUpViewController.m in Sources */,
+				27A9A5EC1976004B00B2B088 /* JERAddEventViewController.m in Sources */,
+				27A9A5F21976006200B2B088 /* JERImageStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E4C2AC1970691900628273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E4C2BE1970691900628273 /* LookbackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05E4C2B61970691900628273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05E4C2941970691900628273 /* Lookback */;
+			targetProxy = 05E4C2B51970691900628273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05E4C2A11970691900628273 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05E4C2A21970691900628273 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05E4C2BA1970691900628273 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05E4C2BB1970691900628273 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05E4C2BF1970691900628273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05E4C2C01970691900628273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05E4C2C21970691900628273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					..,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lookback/Lookback-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../CorePlot/CorePlotHeaders,
+				);
+				INFOPLIST_FILE = "Lookback/Lookback-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../CorePlot,
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05E4C2C31970691900628273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					..,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lookback/Lookback-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../CorePlot/CorePlotHeaders,
+				);
+				INFOPLIST_FILE = "Lookback/Lookback-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../CorePlot,
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		05E4C2C51970691900628273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lookback.app/Lookback";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lookback/Lookback-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LookbackTests/LookbackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		05E4C2C61970691900628273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lookback.app/Lookback";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lookback/Lookback-Prefix.pch";
+				INFOPLIST_FILE = "LookbackTests/LookbackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05E4C2901970691900628273 /* Build configuration list for PBXProject "Lookback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E4C2BF1970691900628273 /* Debug */,
+				05E4C2C01970691900628273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E4C2C11970691900628273 /* Build configuration list for PBXNativeTarget "Lookback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E4C2C21970691900628273 /* Debug */,
+				05E4C2C31970691900628273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E4C2C41970691900628273 /* Build configuration list for PBXNativeTarget "LookbackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E4C2C51970691900628273 /* Debug */,
+				05E4C2C61970691900628273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05E4C28D1970691900628273 /* Project object */;
+}
